@@ -9,6 +9,10 @@ so you can parse and build SPARQL queries in your JavaScript applications.
 
 It fully supports the [SPARQL 1.1 specification](http://www.w3.org/TR/sparql11-query/), including [property paths](http://www.w3.org/TR/sparql11-query/#propertypaths), [federation](http://www.w3.org/TR/sparql11-federated-query/), and [updates](http://www.w3.org/TR/sparql11-update/).
 
+
+## changes in this fork
+- disable replresentation of triples with the same subject with the ";" syntax
+
 ## Usage
 ### Library
 ```JavaScript
